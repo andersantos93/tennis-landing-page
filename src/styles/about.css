@@ -1,0 +1,41 @@
+.domore h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.domore p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.domore p:nth-of-type(1) {
+    font-size: 18px;
+}
+
+.domore p:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.domore a {
+    border-radius: 20px;
+    width: 100px;
+    height: 33px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5.5px;
+}
+
+.domore a:nth-of-type(1) {
+    border: none;
+    background-color: var(--default-green-400);
+}
+
+.domore a:nth-of-type(2) {
+    border-color: var(--default-gray-500);
+    color: #000;
+}
+
+.domore .numbers {
+    background-color: var(--default-green-400);
+}
