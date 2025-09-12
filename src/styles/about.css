@@ -1,41 +1,78 @@
+.domore {
+  display: grid;
+  grid-template-areas:
+    "image about"
+    "image about"
+    "image info";
+}
+
+.domore img {
+  grid-area: image;
+  /* position: absolute; */
+}
+
+.domore .about {
+  grid-area: about;
+}
+
+.domore .info {
+  grid-area: info;
+  background-color: var(--default-green-400);
+}
+
+.domore .info .description {
+  position: relative;
+  display: inline-block;
+}
+
+.domore .info .description::after {
+  border-bottom: 3px solid var(--default-yellow-200);
+  padding-bottom: 5px;
+  content: "";
+  display: block;
+  width: 50%;
+}
+
 .domore h2 {
-    font-size: 48px;
-    text-transform: uppercase;
+  font-size: 48px;
+  text-transform: uppercase;
 }
 
 .domore p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .domore p:nth-of-type(1) {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .domore p:nth-of-type(2) {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .domore a {
-    border-radius: 20px;
-    width: 100px;
-    height: 33px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 5.5px;
+  border-radius: 20px;
+  width: 100px;
+  height: 33px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5.5px;
 }
 
 .domore a:nth-of-type(1) {
-    border: none;
-    background-color: var(--default-green-400);
+  border: none;
+  background-color: var(--default-green-400);
 }
 
 .domore a:nth-of-type(2) {
-    border-color: var(--default-gray-500);
-    color: #000;
+  border-color: var(--default-gray-500);
+  color: #000;
 }
 
-.domore .numbers {
-    background-color: var(--default-green-400);
+@media screen and (max-width: 768px) {
+  .domore img {
+    display: none;
+  }
 }
