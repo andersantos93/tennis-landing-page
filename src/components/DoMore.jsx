@@ -25,7 +25,7 @@ export default function DoMore() {
             </span>
           </div>
           <div className="container mt-4">
-            <p>
+            <p className="fs-6 fw-normal">
               Ever struggle with thinking of fun activities for your kids to do?
               Things they can participate in that might even foster a shared
               interest? We have a perfect solution for you: sign them up to play

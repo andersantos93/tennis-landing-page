@@ -1,0 +1,42 @@
+.latestnews {
+  background-color: #d9d9d9;
+}
+
+.latestnews h4::before {
+  border-top: 3px solid var(--default-green-700);
+  padding-top: 12px;
+  content: "";
+  display: block;
+  width: 10%;
+}
+
+.latestnews span {
+  color: var(--default-gray-400);
+  font-size: 14px;
+}
+
+.latestnews .events {
+  width: 100%;
+  background-color: #fff;
+}
+
+.latestnews hr {
+  margin-top: 25px;
+}
+
+.latestnews img,
+svg {
+  vertical-align: baseline !important;
+}
+
+.latestnews a {
+  font-size: 13px;
+  color: var(--default-green-700);
+}
+
+@media screen and (min-width: 768px) {
+  .latestnews .events {
+    position: relative;
+    bottom: 70px;
+  }
+}

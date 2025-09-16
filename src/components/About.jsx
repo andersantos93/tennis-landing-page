@@ -8,17 +8,17 @@ export default function About() {
       <img
         src={player}
         alt="Player image"
-        class="img-fluid"
+        className="img-fluid"
         width="350"
         height="350"
       />
       <div className="container text-center d-flex flex-column about">
         <h2 className="fs-1 fw-medium">About the Club</h2>
-        <p>
+        <p className="fs-5">
           At the award-winning ProShot. than just a cold calculated business -
           it is passion!
         </p>
-        <p>
+        <p className="fs-6">
           Vilas Tennis Academy offers tennis camps and professional programs
           every week of the year in Punta Cana (Dominican Republic) for juniors
           and adults tennis player.
@@ -33,7 +33,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="container text-center mt-3 p-4 info">
+      <div className="text-center mt-3 p-4 info">
         <div className="row mt-3 mb-3 info">
           <div className="col-6 col-md-6 mb-5">
             <div className="fs-1 text-light">12</div>
