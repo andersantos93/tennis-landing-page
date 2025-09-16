@@ -4,7 +4,7 @@ import calendaricon from "../assets/calendar-icon.png";
 
 export default function LatestNews() {
   return (
-    <section className="latestnews m-5 px-5 p-5">
+    <section className="latestnews mt-5 px-5 p-5">
       <h2 className="fs-2 fw-bold text-uppercase mb-3">Latest News</h2>
       <div className="d-flex flex-column flex-md-row gap-4 mt-5">
         <div className="d-flex flex-column">

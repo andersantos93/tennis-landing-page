@@ -1,8 +1,8 @@
 .about {
   display: grid;
   grid-template-areas:
-    "image about"
-    "image about"
+    "image explanation"
+    "image explanation"
     "image info";
 }
 
@@ -11,8 +11,8 @@
   /* position: absolute; */
 }
 
-.about .about {
-  grid-area: about;
+.about .explanation {
+  grid-area: explanation;
 }
 
 .about .info {
