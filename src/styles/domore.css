@@ -1,0 +1,12 @@
+.domore .details::after {
+  border-bottom: 2px solid var(--default-green-700);
+  padding-bottom: 5px;
+  content: "";
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 530px;
+  }
+}

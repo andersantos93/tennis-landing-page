@@ -1,4 +1,4 @@
-.domore {
+.about {
   display: grid;
   grid-template-areas:
     "image about"
@@ -6,26 +6,26 @@
     "image info";
 }
 
-.domore img {
+.about img {
   grid-area: image;
   /* position: absolute; */
 }
 
-.domore .about {
+.about .about {
   grid-area: about;
 }
 
-.domore .info {
+.about .info {
   grid-area: info;
   background-color: var(--default-green-400);
 }
 
-.domore .info .description {
+.about .info .description {
   position: relative;
   display: inline-block;
 }
 
-.domore .info .description::after {
+.about .info .description::after {
   border-bottom: 3px solid var(--default-yellow-200);
   padding-bottom: 5px;
   content: "";
@@ -33,25 +33,25 @@
   width: 50%;
 }
 
-.domore h2 {
+.about h2 {
   font-size: 48px;
   text-transform: uppercase;
 }
 
-.domore p {
+.about p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.domore p:nth-of-type(1) {
+.about p:nth-of-type(1) {
   font-size: 18px;
 }
 
-.domore p:nth-of-type(2) {
+.about p:nth-of-type(2) {
   font-size: 14px;
 }
 
-.domore a {
+.about a {
   border-radius: 20px;
   width: 100px;
   height: 33px;
@@ -61,18 +61,18 @@
   padding: 5.5px;
 }
 
-.domore a:nth-of-type(1) {
+.about a:nth-of-type(1) {
   border: none;
   background-color: var(--default-green-400);
 }
 
-.domore a:nth-of-type(2) {
+.about a:nth-of-type(2) {
   border-color: var(--default-gray-500);
   color: #000;
 }
 
 @media screen and (max-width: 768px) {
-  .domore img {
+  .about img {
     display: none;
   }
 }
