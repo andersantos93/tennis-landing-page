@@ -56,13 +56,13 @@ export default function Contact() {
           </div>
           <div className="d-flex flex-row gap-5">
             <div>
-              <span>Scattered Clouds</span>
+              <span className="text-uppercase">Scattered Clouds</span>
               <br />
-              <span>Humidity 73%</span>
+              <span className="text-uppercase">Humidity 73%</span>
               <br />
-              <span>Wind: 6M/S SW</span>
+              <span className="text-uppercase">Wind: 6M/S SW</span>
               <br />
-              <span>H 21 L 15</span>
+              <span className="text-uppercase">H 21 L 15</span>
             </div>
             <div>
               <span className="fs-1 fw-bolder default-green-600">21º</span>

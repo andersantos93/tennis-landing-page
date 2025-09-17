@@ -1,0 +1,9 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+}
+
+.default-green-600 {
+  color: var(--default-green-600);
+}

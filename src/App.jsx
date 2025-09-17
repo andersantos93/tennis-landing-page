@@ -6,6 +6,7 @@ import DoMore from "./components/DoMore";
 import LatestNews from "./components/LatestNews";
 import NewsLetter from "./components/NewsLetter";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <LatestNews />
       <NewsLetter />
       <Contact />
+      <Footer />
     </>
   );
 }
