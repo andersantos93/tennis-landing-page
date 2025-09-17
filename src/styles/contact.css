@@ -1,0 +1,23 @@
+.contact {
+  padding: 70px;
+}
+
+.contact .custom-flex {
+  flex-direction: row;
+  justify-content: space-evenly !important;
+}
+
+.contact .default-green-600 {
+  color: var(--default-green-600);
+}
+
+@media screen and (max-width: 980px) {
+  .contact {
+    padding: 35px;
+  }
+
+  .contact .custom-flex {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
