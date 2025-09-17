@@ -7,7 +7,7 @@ export default function NewsLetter() {
     <section className="newsletter">
       <div className="position-relative text-center">
         <img src={newsletter} alt="Newsletter image" className="img-fluid" />
-        <div class="position-absolute w-100 p-5 top-50 start-50 translate-middle text-white">
+        <div className="position-absolute w-100 p-5 top-50 start-50 translate-middle text-white">
           <h1 className="text-uppercase title">Love Playing Tennis?</h1>
           <p>
             Sign up for us newsletter and get all the latest tips and tricks to
