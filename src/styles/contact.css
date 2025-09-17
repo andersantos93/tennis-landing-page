@@ -11,9 +11,21 @@
   color: var(--default-green-600);
 }
 
+.contact hr {
+  background-color: #000;
+}
+
+.contact .custom-hr {
+  width: 1px;
+}
+
 @media screen and (max-width: 980px) {
   .contact {
     padding: 35px;
+  }
+
+  .contact .custom-hr {
+    width: 90%;
   }
 
   .contact .custom-flex {

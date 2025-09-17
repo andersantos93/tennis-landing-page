@@ -18,7 +18,7 @@ const icons = [
 export default function Contact() {
   return (
     <section className="contact">
-      <div className="d-flex justify-content-center gap-5 custom-flex">
+      <div className="d-flex justify-content-center gap-2 custom-flex">
         <div className="d-flex flex-column gap-4">
           <div className="d-flex">
             <img
@@ -49,6 +49,7 @@ export default function Contact() {
             <span>+34 971 282 000</span>
           </div>
         </div>
+        <hr className="custom-hr" />
         <div className="d-flex flex-column gap-2">
           <div>
             <span>Palma de Mallorca</span>
@@ -68,6 +69,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        <hr className="custom-hr" />
         <div className="d-flex flex-row gap-3 gap-md-5">
           {icons.map((icon, index) => {
             return (
