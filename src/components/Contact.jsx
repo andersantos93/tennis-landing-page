@@ -74,7 +74,9 @@ export default function Contact() {
           {icons.map((icon, index) => {
             return (
               <div key={index}>
-                <img src={icon.name} alt={icon.alt} className="img-fluid" />
+                <a href="#">
+                  <img src={icon.name} alt={icon.alt} className="img-fluid" />
+                </a>
               </div>
             );
           })}

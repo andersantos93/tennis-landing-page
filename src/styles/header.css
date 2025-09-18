@@ -1,0 +1,27 @@
+header .description {
+  top: 25%;
+  width: 570px;
+  color: #fff;
+}
+
+header .nav-link {
+  color: white !important;
+}
+
+header .book-court-btn {
+  background-color: var(--default-green-400) !important;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 400px) {
+  header .header-sm-img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header .description {
+    width: 100%;
+    text-align: center;
+  }
+}

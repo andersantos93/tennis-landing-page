@@ -1,6 +1,6 @@
 import "../styles/latestnews.css";
 
-import calendaricon from "../assets/calendar-icon.png";
+import calendar from "../assets/calendar.png";
 
 const news = [
   {
@@ -21,17 +21,17 @@ const news = [
 const events = [
   {
     round: "16",
-    icon: calendaricon,
+    icon: calendar,
     date: "November 13 @ 9:00 AM - 3:00 PM",
   },
   {
     round: "8",
-    icon: calendaricon,
+    icon: calendar,
     date: "November 14 @ 9:00 AM - 3:00 PM",
   },
   {
     round: "4",
-    icon: calendaricon,
+    icon: calendar,
     date: "November 15 @ 9:00 AM - 3:00 PM",
   },
 ];
