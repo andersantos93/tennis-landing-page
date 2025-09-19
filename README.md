@@ -1,12 +1,17 @@
-# React + Vite
+# Tennis Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains a tennis landing page.
 
-Currently, two official plugins are available:
+Prepared by web developer Anderson Santos as part of his capstone project at Tamwood International College.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack:
 
-## Expanding the ESLint configuration
+React & Bootstrap
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Design Credits
+
+Author: Ronald Nuñez
+
+Link: https://www.figma.com/community/file/1356421927173270869
+
+<img src="./src/images/landing-page.png">
