@@ -12,7 +12,7 @@ export default function About() {
         width="350"
         height="350"
       />
-      <div className="container text-center d-flex flex-column explanation">
+      <div className="container text-md-start d-flex flex-column explanation">
         <h2 className="fs-1 fw-medium">About the Club</h2>
         <p className="fs-5">
           At the award-winning ProShot. than just a cold calculated business -

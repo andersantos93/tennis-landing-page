@@ -1,23 +1,19 @@
-.about {
-  display: grid;
-  grid-template-areas:
-    "image explanation"
-    "image explanation"
-    "image info";
-}
-
 .about img {
-  grid-area: image;
-  /* position: absolute; */
+  position: absolute;
+  left: 40px;
 }
 
 .about .explanation {
-  grid-area: explanation;
+  margin-left: 400px;
+  width: 600px;
 }
 
 .about .info {
-  grid-area: info;
   background-color: var(--default-green-400);
+}
+
+.about .info .row {
+  padding-left: 160px;
 }
 
 .about .info .description {
@@ -71,8 +67,18 @@
   color: #000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  .about .explanation {
+    text-align: center !important;
+    margin-left: auto;
+    width: auto;
+  }
+
   .about img {
     display: none;
+  }
+
+  .about .info .row {
+    padding-left: 0;
   }
 }
